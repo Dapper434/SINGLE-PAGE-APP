@@ -11,8 +11,8 @@
 
 .input-group .input-group-text {
     border-radius: 30px 0 0 30px;
-    border-color: #b8a9e8;
-    color: #b8a9e8;
+    border-color: #5d46ac;
+    color: #6c5ca0;
 }
 
 .input-group  {
@@ -22,7 +22,7 @@
 
 .input-group  {
     box-shadow: none;
-    border-color: #b8a9e8;
+    border-color: #4a3a80;
 }
 
 .form-control {
@@ -37,7 +37,7 @@
 
 .input-group .btn-primary {
     border-radius: 0 30px 30px 0;
-    background-color: aquamarine;
+    background-color: rgb(183, 243, 223);
     border-color: aquamarine;
     color: #1a1a2e;
     font-weight: 600;
@@ -47,6 +47,16 @@
 .input-group .btn-primary:hover {
     background-color: aqua;
     border-color: aqua;
+}
+
+/* Tagline above search bar */
+.tagline {
+    font-family: 'Cinzel', serif;
+    font-size: 1rem;
+    color: #6648c7;
+    letter-spacing: 2px;
+    font-style: italic;
+    margin-bottom: 0;
 }
 
 
@@ -99,21 +109,21 @@
 
 /* Phonetic text */
 .phonetic {
-    color: #9d8fd4;
+    color: #3b15d3;
     font-style: italic;
     font-size: 1rem;
 }
 
 /* Definition text */
 .definition-text {
-    color: #e0d9f5;
+    color: #1463be;
     line-height: 1.7;
     margin-bottom: 6px;
 }
 
 /* Example sentence */
 .example-text {
-    color: #a09ab8;
+    color: #5d45bd;
     font-style: italic;
     font-size: 0.9rem;
     padding-left: 1rem;
@@ -125,7 +135,7 @@
 .part-of-speech {
     display: inline-block;
     background-color: rgba(184, 169, 232, 0.15);
-    color: #b8a9e8;
+    color: #6648c7;
     font-size: 0.8rem;
     font-weight: 600;
     letter-spacing: 1.5px;
@@ -145,4 +155,15 @@
     padding: 3px 12px;
     font-size: 0.85rem;
     margin: 3px;
+}
+
+         
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid rgba(184, 169, 232, 0.4);
+    color: #6648c7;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
 }
